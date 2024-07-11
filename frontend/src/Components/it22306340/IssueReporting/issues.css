@@ -1,0 +1,71 @@
+.issue-reporting-container {
+    width: 60%; 
+    margin: 30px auto; 
+    padding: 20px; 
+    border-radius: 10px; 
+    background: rgba(14, 2, 183, 0.3); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); 
+  }
+  
+  .issue-reporting-container h2 {
+    text-align: center;
+    color: white; 
+  }
+  
+  .message {
+    text-align: center; 
+    font-size: 16px; 
+    color: white; 
+  }
+  
+  .issue-reporting-form {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; /* Spacing between elements */
+  }
+  
+  .issue-reporting-form .form-group {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+  }
+  
+  .issue-reporting-form label {
+    font-weight: bold; /* Bold text for emphasis */
+    color: white; /* White text for visibility */
+  }
+  
+  .issue-reporting-form textarea {
+    width: 98%; /* Slightly narrower for balance */
+    height: 120px; /* Increased height */
+    padding: 10px; /* Padding for comfort */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Light border */
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent */
+    color: white; /* White text */
+  }
+  
+  .issue-reporting-form textarea:focus {
+    border-color: white; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .issue-reporting-form .form-button-container {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the button */
+  }
+  
+  .issue-reporting-form button {
+    background: rgba(0, 0, 114, 0.55); /* Dark blue buttons */
+    color: white; /* White text for buttons */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 16px; /* Standard font size */
+  }
+  
+  .issue-reporting-form button:hover {
+    background: navy; /* Darker shade on hover */
+  }
+  
